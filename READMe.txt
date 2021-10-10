@@ -19,7 +19,7 @@ Versionamiento 🔀 Git es usado para el control de Version.
 
 La estructura completa del projecto es la siguiente :
 
-src/main/java/
+SourcesPackage/
 
    Package Cuestionarios contiene los metodos para las preguntas segun su nivel
    
