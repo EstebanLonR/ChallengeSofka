@@ -2,25 +2,24 @@ package chanllegessofka.Cuestionarios;
 
 import Sintaxis.CadenasDeTexto;
 import Sintaxis.Preguntas;
-import chanllegessofka.Utilidades.Funciones;
+
 import javax.swing.JOptionPane;
 
 public class CuestionarioReclut {
 
     public static Preguntas preguntas;
     public static CadenasDeTexto cadenasDeTexto;
-    public static Funciones funciones;
 
-    public static  void facil() {
+    public static void facil() {
         cadenasDeTexto = new CadenasDeTexto();
         preguntas = new Preguntas();
-       
+
         int opcion;
 
         int contador = 0;
 
         opcion = Integer.parseInt(JOptionPane.showInputDialog(preguntas.getQuestionDeportes5()));
-        
+
         if (opcion == 5) {
             JOptionPane.showMessageDialog(null, cadenasDeTexto.getSalirVoluntariamente() + "\n"
                     + "       " + contador + " Puntos");
@@ -105,14 +104,9 @@ public class CuestionarioReclut {
             }
 
         }
-        
-        JOptionPane.showMessageDialog(null, cadenasDeTexto.getCategoriaCompleta() + "RECLUTA" +"\n"+"      TU PUNTUACION= "+contador);
-        
 
-        
-        
+        JOptionPane.showMessageDialog(null, cadenasDeTexto.getCategoriaCompleta() + "RECLUTA" + "\n" + "      TU PUNTUACION= " + contador);
+
     }
 
 }
-
-

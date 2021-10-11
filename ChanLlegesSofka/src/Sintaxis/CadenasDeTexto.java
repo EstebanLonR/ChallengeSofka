@@ -15,9 +15,10 @@ public class CadenasDeTexto {
             + "2.Reclut(Facil)" + "\n"
             + "3.Regular(Normal)" + "\n"
             + "4.Hardened(Dificil)" + "\n"
-            + "5.Veterano(MuyDificil)" + "\n" 
+            + "5.Veterano(MuyDificil)" + "\n"
+            + "6.Historial Ganadores"+"\n"
             + "--------------------------" + "\n" + "\n"
-            + "6.Salir";
+            + "7.Salir";
     
     private String volverJugar="Felicidades, Ganaste.....Vuelve a iniciar el juego para concursar en otra categoria";
 
