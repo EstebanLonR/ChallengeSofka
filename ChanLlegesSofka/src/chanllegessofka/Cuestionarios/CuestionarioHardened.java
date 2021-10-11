@@ -1,28 +1,25 @@
-
 package chanllegessofka.Cuestionarios;
 
 import Sintaxis.CadenasDeTexto;
 import Sintaxis.Preguntas;
-import chanllegessofka.Utilidades.Funciones;
+
 import javax.swing.JOptionPane;
 
-
 public class CuestionarioHardened {
-    
+
     public static Preguntas preguntas;
     public static CadenasDeTexto cadenasDeTexto;
-    public static Funciones funciones;
 
     public static void dificil() {
         cadenasDeTexto = new CadenasDeTexto();
         preguntas = new Preguntas();
-       
+
         int opcion;
 
         int contador = 0;
 
         opcion = Integer.parseInt(JOptionPane.showInputDialog(preguntas.getQuestionSeriesAnimadas1()));
-        
+
         if (opcion == 5) {
             JOptionPane.showMessageDialog(null, cadenasDeTexto.getSalirVoluntariamente() + "\n"
                     + "       " + contador + " Puntos");
@@ -107,9 +104,8 @@ public class CuestionarioHardened {
             }
 
         }
-        JOptionPane.showMessageDialog(null, cadenasDeTexto.getCategoriaCompleta() + "HARDENED" +"\n"+"      TU PUNTUACION= "+contador);
+        JOptionPane.showMessageDialog(null, cadenasDeTexto.getCategoriaCompleta() + "HARDENED" + "\n" + "      TU PUNTUACION = " + contador);
 
-        
     }
-    
+
 }

@@ -3,13 +3,13 @@ package chanllegessofka.Cuestionarios;
 
 import Sintaxis.CadenasDeTexto;
 import Sintaxis.Preguntas;
-import chanllegessofka.Utilidades.Funciones;
+
 import javax.swing.JOptionPane;
 
 public class CuestionarioRegular {
         public static Preguntas preguntas;
     public static CadenasDeTexto cadenasDeTexto;
-    public static Funciones funciones;
+   
 
     public static void normal() {
         cadenasDeTexto = new CadenasDeTexto();
